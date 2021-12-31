@@ -1,0 +1,36 @@
+aside {
+    width: 237px;
+    height: 850px;
+    background: #FAFBFD;
+}
+
+.title {
+    margin: 47px 0 122px 38px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+ul {
+    list-style: none;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+ul li {
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    color: #9E9E9E;
+}
+
+.choosen {
+    font-weight: bold;
+    color: #090F31;
+}

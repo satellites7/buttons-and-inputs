@@ -1,0 +1,91 @@
+.item {
+    width: 824px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+label {
+    display: block;
+    font-family: Noto Sans JP;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+input {
+    padding-left: 12px;
+    margin-top: 3px;
+    border: 1px solid #828282;
+    border-radius: 8px;
+    width: 200px;
+    height: 56px;
+    box-sizing: border-box;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+input:hover {
+    border: 1px solid #333333;
+}
+input:focus {
+    outline: 1px solid #2962FF;
+}
+
+.error {
+    border: 1px solid #D32F2F;
+}
+.error:focus {
+    outline: 1px solid #D32F2F;
+}
+
+.disabled-input {
+    cursor: not-allowed;
+    background: #F2F2F2;
+    border: 1px solid #E0E0E0;
+    caret-color: transparent;
+}
+.disabled-input:hover {
+    border: 1px solid #E0E0E0;
+}
+.disabled-input:focus {
+    outline: none;
+}
+
+.helpText {
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #828282;
+}
+.errorColor {
+    color: #D32F2F;
+}
+
+
+.material-icons.md-dark {
+    color: #828282;
+    width: 20px;
+    height: 20px;
+}
+
+.startIcon {
+    transform: translateX(-188px);
+}
+.endIcon {
+    transform: translateX(-30px);
+}
+.startIconInput{
+    padding-left: 35px;
+}
+.endIconInput {
+    padding-right:40px
+}
+
+.sm-input {
+    width: 200px;
+    height: 40px;
+}

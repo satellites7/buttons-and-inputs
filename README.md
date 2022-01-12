@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://buttons-and-inputs.onrender.com">
+    <a href="https://buttons-and-inputs.vercel.app/">
       Demo
     </a>
     <span> | </span>
